@@ -26,7 +26,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "compile": "node build.js",
-    "copy-assets": "robocopy . dist /E /XD src dist /XF tsconfig.json",
+    "copy-assets": "cp manifest.json dist/ && cp popup.html dist/ && cp -a img dist/",
     "build": "npm run clean && npm run compile && npm run copy-assets"
   },
   "devDependencies": {
