@@ -54,12 +54,19 @@ npm install
 You need to be aware of the underlying functionality of the extension before getting to the editing part. This web extension has a couple of important files:
 
 - manifest.json
+    
     This file is necessary in all web extensions and it provides a basic layout of the web extension. No need to change this file unless adding more functionality.
+
 - popup.html
+    
     This is the html file that will pop when clicking on the extension icon
+
 - src/scripts/popup.ts
+    
     Typescript file that sends messages from each of the buttons from pop.html to the worker service
+
 - src/scripts/content.ts
+    
     The worker service file that interacts with the DOM and fills the input elements.
 
 ### 4. Build and restart the extension
