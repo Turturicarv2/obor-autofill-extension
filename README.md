@@ -1,6 +1,6 @@
 # OBOR Autofill Extension
 
-OBOR Autofill Extension is a chrome extension that autofills inputs for this specific volleyball court booking website: https://bazesportive.sibiu.ro/obor
+OBOR Autofill Extension is a chrome extension that autofills inputs for this specific volleyball court booking website: https://bazesportive.sibiu.ro/obor.
 
 ## Motivation
 
@@ -8,7 +8,7 @@ There are a lot of autofill extensions, even one that comes by default on most b
 
 ## Quick Start
 
-Need to use this web extension to book a court for yourself without too much trouble? Follow the below guide for a quick start
+Need to use this web extension to book a court for yourself without too much trouble? Follow the below guide for a quick start.
 
 ### 1. Download the extension files from under the releases tab
 
@@ -36,7 +36,7 @@ You're done! Go to https://bazesportive.sibiu.ro/obor, choose a court, the date 
 
 ## Running this locally
 
-Interested in playing with this web extension? This is a guide on how to get started with this code.
+Interested in playing with this web extension? This is a guide on how to get started.
 
 ### 1. Clone the repository
 
@@ -61,11 +61,11 @@ You need to be aware of the underlying functionality of the extension before get
 
 - popup.html
     
-    This is the html file that will pop when clicking on the extension icon
+    This is the html file that will pop when clicking on the extension icon.
 
 - src/scripts/popup.ts
     
-    Typescript file that sends messages from each of the buttons from pop.html to the worker service
+    Typescript file that sends messages from each of the buttons from pop.html to the worker service.
 
 - src/scripts/content.ts
     
