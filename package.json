@@ -25,12 +25,13 @@
   "contributors": [],
   "scripts": {
     "clean": "rm -rf dist",
-    "compile": "npx tsc",
+    "compile": "node build.js",
     "copy-assets": "robocopy . dist /E /XD src dist /XF tsconfig.json",
     "build": "npm run clean && npm run compile && npm run copy-assets"
   },
   "devDependencies": {
     "@types/chrome": "^0.1.39",
+    "esbuild": "^0.28.0",
     "typescript": "^6.0.2"
   }
 }
