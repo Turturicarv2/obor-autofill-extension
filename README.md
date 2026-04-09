@@ -6,7 +6,9 @@ OBOR Autofill Extension is a chrome extension that autofills inputs for this spe
 
 There are a lot of autofill extensions, even one that comes by default on most browsers, but for this specific website, I needed something better than the default autofill. The reason is that I need to fill a lot of inputs with different values for different people. That's why I built this chrome extension to store all of the needed data at a button's click distance.
 
-## Quick Use
+## Quick Start
+
+Need to use this web extension to book a court for yourself without too much trouble? Follow the below guide for a quick start
 
 ### 1. Download the extension files from under the releases tab
 
